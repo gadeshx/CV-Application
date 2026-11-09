@@ -32,9 +32,9 @@ export default function Info() {
     if (isEditing) {
         return (
             < section >
-                <h1>
+                <h2>
                     Personal Information:
-                </h1>
+                </h2>
                 <form onSubmit={handleSubmit}>
                     <label htmlFor="name">Full Name:</label>
                     <input type="text" id="name" name="name" onChange={handleChange} value={draftData.name} />
@@ -52,9 +52,9 @@ export default function Info() {
     }
     return (
         < section >
-            <h1>
+            <h2>
                 Personal Information:
-            </h1>
+            </h2>
 
             <h2>Full Name:</h2>
             <p>{formData.name}</p>

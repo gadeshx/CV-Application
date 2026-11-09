@@ -50,9 +50,9 @@ export default function Education() {
     if (isEditing) {
         return (
             <section>
-                <h1>
+                <h2>
                     Education:
-                </h1>
+                </h2>
 
                 <form onSubmit={handleSubmit}>
                     <label htmlFor="schoolName">School Name:</label>
@@ -76,9 +76,9 @@ export default function Education() {
 
     return (
         <section>
-            <h1>
+            <h2>
                 Education:
-            </h1>
+            </h2>
             <ul>
                 {entries.map((education) => (
                     <li key={education.id}>

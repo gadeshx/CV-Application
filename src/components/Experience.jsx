@@ -48,9 +48,9 @@ export default function Experience() {
     if (isEditing) {
         return (
             <section>
-                <h1>
+                <h2>
                     Experience:
-                </h1>
+                </h2>
                 <form onSubmit={handleSubmit}>
                     <label htmlFor="companyName" > Company Name:</label>
                     <input type="text" id="companyName" name="companyName" onChange={handleChange} value={draftData.companyName} />
@@ -73,9 +73,9 @@ export default function Experience() {
 
     return (
         <section>
-            <h1>
+            <h2>
                 Experience:
-            </h1>
+            </h2>
             <ul>
                 {entries.map((experience) => (
                     <li key={experience.id}>
