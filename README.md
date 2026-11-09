@@ -2,8 +2,6 @@
 
 A small React app for building a CV/résumé. Fill in your details, save each section, and edit or delete entries at any time. Built as part of [The Odin Project](https://www.theodinproject.com/) React curriculum.
 
-**Live demo:** _add your deployed link here_
-
 ## Features
 
 - **Personal information**: name, email and phone number.
@@ -46,8 +44,8 @@ src/
 
 ```bash
 # clone the repository
-git clone <your-repo-url>
-cd <project-folder>
+git clone https://github.com/gadeshx/CV-Application.git
+cd "CV Application"
 
 # install dependencies
 npm install
